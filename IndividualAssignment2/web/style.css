@@ -1,0 +1,53 @@
+       body {
+            font-family: Tinos, sans-serif;
+            background-image: url("images/background1.jpg");
+            background-size: cover;     
+            background-repeat: no-repeat;
+            margin: 0px;
+            height: 115vh;               
+            display: flex;   
+            justify-content: center;    
+            align-items: center; 
+        }
+        form {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            width: 700px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 95%;
+            margin: 8px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            font-family: Tinos, sans-serif;
+            background: #e5b69f;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #b68f70;
+        }
+        
+        .button {
+    display: inline-block;
+    font-family: Tinos, sans-serif;
+    background: #e5b69f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #b68f70;
+}
